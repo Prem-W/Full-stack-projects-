@@ -9,14 +9,14 @@ A full-stack web app for finding scholarships, professor contacts, and applicati
 - **Professor finder** — 60+ researchers across AI/ML/Data Science with Hunter.io email lookup
 - **Contact guide** — step-by-step advice on writing professor emails that actually get replies
 - **Eligibility checker** — enter your profile to see your best scholarship matches
-- **SOP builder** — AI-generated Statement of Purpose via Claude API
+- **SOP builder** — AI-generated Statement of Purpose via Anthropic API
 - **Semantic Scholar** — live paper and citation data for any research topic
 
 ## Tech stack
 
 **Frontend** — Vanilla HTML/CSS/JS (no build step, opens in browser directly)  
 **Backend** — Node.js + Express  
-**APIs** — Anthropic (Claude), Hunter.io, Semantic Scholar (free), RestCountries (free)
+**APIs** — Anthropic, Hunter.io, Semantic Scholar (free), RestCountries (free)
 
 ## Getting started
 
