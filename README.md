@@ -4,9 +4,9 @@ A full-stack web app for finding scholarships, professor contacts, and applicati
 
 ## Features
 
-- **249 countries** — scholarships, required tests, documents, and timelines per study stream
+- **195 countries** — scholarships, required tests, documents, and timelines per study stream
 - **Stream-wise data** — B.E/B.Tech, M.Tech/Masters, PhD, MBA, Medicine, and Law
-- **Professor finder** — 65+ researchers across AI/ML/Data Science with Hunter.io email lookup
+- **Professor finder** — 60+ researchers across AI/ML/Data Science with Hunter.io email lookup
 - **Contact guide** — step-by-step advice on writing professor emails that actually get replies
 - **Eligibility checker** — enter your profile to see your best scholarship matches
 - **SOP builder** — AI-generated Statement of Purpose via Claude API
@@ -75,7 +75,7 @@ scholarvault/
 │   ├── package.json
 │   ├── .env.example
 │   └── data/
-│       ├── countries.js    # 249 countries + scholarship data
+│       ├── countries.js    # 195 countries + scholarship data
 │       └── professors.js   # Professor database + search
 └── frontend/
     └── public/
