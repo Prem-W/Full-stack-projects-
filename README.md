@@ -87,7 +87,7 @@ scholarvault/
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | GET | `/api/health` | Server status |
-| GET | `/api/countries` | All 249 countries with search |
+| GET | `/api/countries` | All 195 countries with search |
 | GET | `/api/scholarships/:country/:stream` | Full scholarship data |
 | GET | `/api/professors?q=deep+learning` | Search professors |
 | POST | `/api/eligibility` | Match profile against scholarships |
@@ -106,7 +106,3 @@ npm install -g @railway/cli && railway login && railway init && railway up
 **Render**: Connect your GitHub repo → Build: `npm install` → Start: `npm start` → add env vars.
 
 After deploying, update the `API` constant at the top of `frontend/public/index.html` to your deployed URL.
-
-## License
-
-MIT
